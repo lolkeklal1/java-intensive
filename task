@@ -1,0 +1,30 @@
+package com.ecosystem;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Ecosystem {
+    private List<Plant> plants;
+    private List<Animal> animals;
+    private List<Resource> resources;
+
+    public Ecosystem() {
+        plants = new ArrayList<>();
+        animals = new ArrayList<>();
+        resources = new ArrayList<>();
+    }
+
+    public void loadSimulation(String filename) {
+        // Загрузка данных из файла
+    }
+
+    public void saveSimulation(String filename) {
+        // Сохранение данных в файл
+    }
+
+    public void run() {
+        // Основной цикл симуляции
+    }
+
+    // Методы для добавления, удаления и обновления растений, животных и ресурсов
+}
